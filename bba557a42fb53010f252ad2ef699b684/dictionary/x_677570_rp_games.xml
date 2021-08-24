@@ -19,6 +19,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="progress" max_length="40" name="progress" type="boolean"/>
         <element label="Released" max_length="40" name="released" type="boolean"/>
         <element label="Release Date" max_length="40" name="release_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Title" max_length="100" name="title" type="string"/>
